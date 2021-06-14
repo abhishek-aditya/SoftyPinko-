@@ -1,0 +1,396 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;	
+	background-color: white;
+	overflow-x: hidden;
+
+}
+
+.bgimg {
+	background-image: url('../images/banner-bg.png'); 
+	background-repeat: no-repeat;	
+	background-position: center center;
+	background-size: cover; 
+}
+
+body > div > div.bgimg.container-fluid > div.header.row.justify-content-center > nav{
+	border-radius: 100px;
+	position: fixed;
+	z-index: 100;
+	
+	padding: 10px 50px;
+}
+
+
+/*First Page*/
+.first .main{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+
+.first .main1{
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+}
+
+.first .btn1{
+	text-align: center;
+	font-size: 13px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.first .btn1 button{
+	border-radius: 100px;
+	padding: 10px 20px;
+	border-style: none;
+	background-color: #ff589e;
+	color: white;  
+}
+
+.first .btn1 button:hover{
+	background-color: #8261ee;
+}
+
+/*First Page Cards*/
+.mainc{
+	margin-top: 50px;
+	padding: 20px;
+}
+
+.imgc{
+	background: #8261ee;
+	display: grid;
+	justify-content: center;
+	margin-top: 18px;
+	padding: 16px;
+	border-radius: 100%;
+	width: 90px;
+	height: 90px;
+}
+
+.mainc .card:hover .imgc{
+	background: #ff589e;
+}
+
+.mainc .card{
+	align-items: center;
+	text-align: center;
+	margin: 0px 20px;
+	border-radius: 20px;
+	padding:20px; 
+	margin: 20px;
+}
+
+.mainc .card .card-text{
+	font-size: 13px;
+	color: gray;
+}
+
+/*Second Page*/
+
+.sec .sec1{
+	margin: 50px 0px;
+}
+
+body > div > div.sec.container > div:nth-child(3) > div.img1.col-sm-5{
+	text-align: right;
+}
+
+.sec .sec1 .img1{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.sec .sec1 .secp{
+	text-align: left;
+	margin-top: 50px;
+}
+
+.sec .row .secp .ptitle{
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.sec .row .secp .pdesc{
+	color: gray;
+	padding-top: 40px;
+	font-size: 17px;
+	font-weight: 400;
+}	
+
+.hr {
+  bottom: 0px;
+  width: 100%;
+  height: 1px;
+  margin-top: 100px;
+  border-bottom: 1px solid #eee;
+}	
+
+/*Third Page*/
+
+.bgimg1{
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../images/work-process-bg.png);
+    margin-bottom: 50px;
+}
+
+
+.third .ttl2{
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
+	color: white;
+	margin-top: 80px;
+}
+
+.third .mn2{
+	color: white;
+	text-align: center;
+	margin: 50px;
+}
+
+.third .smca{
+	margin-bottom: 50px;
+}
+
+.third .smca .card{
+	align-items: center;
+	text-align: center;
+	margin: 20px;
+	padding-top:20px;
+	border-radius: 20px;
+}
+
+.third .smca .card .card-title{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.third .smca .card .card-text{
+	color: gray;
+	font-size: 15px;
+}
+
+/*Fourth Page*/
+.fourth{
+	margin-bottom: 50px
+}
+.fourth .row .ptitle{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 500;
+	margin-top: 50px;
+}
+
+.fourth .row .pdesc{
+	color: gray;
+	padding-top: 40px;
+	font-size: 17px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 50px
+}
+
+.fourth .row .testm{
+	display: flex;
+}
+
+.fourth .row .testm .card{
+	align-items: center;
+	text-align: left; 
+	padding-top: 20px;
+	margin: 40px;
+	border-radius: 15px;
+}
+
+.testm .card .card-title{
+	font-size: 18px;
+	font-weight: 400
+}
+
+.testm .card .card-text{
+	color: gray;
+	font-size: 15px;
+}
+
+.testm .card .card-pos{
+	font-size: 15px;
+	color: #ff589e;
+}
+
+.testm .card .card-title{
+	margin-bottom: 5px;
+}
+
+/*Fifth Page*/
+
+.fifth{
+	background-color:#f2f2fe;
+
+}
+
+.fifth .ptitle{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 500;
+	margin-top: 50px;
+}
+
+.fifth .pdesc{
+	color: gray;
+	padding-top: 40px;
+	font-size: 17px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 50px
+}
+
+.fifth .blgs .card{
+	align-items: center;
+	text-align: center; 
+	padding-top: 20px;
+	margin: 20px;
+	border-radius: 15px;
+	border-style: none;
+	margin-bottom: 100px;
+}
+
+.fifth .blgs .card .card-title{
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+
+}
+
+.fifth .blgs .card .card-text{
+	color: gray;
+	font-size: 15px;
+	text-align: center;
+}
+
+body > div > div.fifth.container-fluid > div > div.row.blgs.justify-content-center > div:nth-child(n) > div > button{
+	border-radius: 100px;
+	padding: 10px 20px;
+	border-style: none;
+	background-color: #8261ee;
+	color: white; 
+	font-size: 13px;
+}
+
+body > div > div.fifth.container-fluid > div > div.row.blgs.justify-content-center > div:nth-child(n) > div > button:hover{
+	background-color: #ff589e;
+}
+
+/*Sixth Page*/
+.sixth{
+	background-color: #ffe6f3; 
+}
+
+.sixth .row .ptitle{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 500;
+	margin-top: 50px;
+}
+
+.sixth .row .pdesc{
+	color: gray;
+	padding-top: 40px;
+	font-size: 17px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 50px
+}
+
+.sixth .row .potha .pottl{
+	text-align: left;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.sixth .row .potha .podesc{
+	color: gray;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: left;
+	padding-top: 30px;
+}
+
+body > div > div.sixth.container-fluid > div > div.row.justify-content-center > div.frmwin.col-lg-7.col-md-7.col-sm-8.jus{
+	text-align: center;	
+}
+
+#fname{
+	border-radius: 30px;
+	padding:8px 50px;
+	border-style: none;
+	margin: 20px;
+}
+
+#email{
+	border-radius: 30px;
+	padding:8px 50px;
+	border-style: none;
+	margin: 20px;
+}
+
+#msg{
+	resize: none;
+	border-radius: 30px;
+	border-style: none;
+	padding:8px 50px;
+	margin: 20px;
+}
+
+body > div > div.sixth.container-fluid > div > div.row.justify-content-center > div.frmwin.col-lg-7.col-md-7.col-sm-8.jus > form > button{
+	border-radius: 100px;
+	padding: 10px 20px;
+	border-style: none;
+	background-color: #ff589e;
+	color: white;	
+	font-size: 13px;
+	text-align: left;
+	margin: 20px;
+	margin-bottom: 50px;
+}
+
+body > div > div.sixth.container-fluid > div > div.row.justify-content-center > div.frmwin.col-lg-7.col-md-7.col-sm-8.jus > form > button:hover{
+	background-color: #8261ee;
+}
+
+.footer{
+	background-color: #8261ee;
+	padding: 30px;
+}
+
+i{
+	color: white;
+	font-size: 100px;
+}
+
+body > div > div.footer.container-fluid > div > div{
+	text-align: center;
+}
+
+.socials a{
+	font-size: 30px;
+	padding: 10px;
+}
+
+body > div > div.footer.container-fluid > div:nth-child(2){
+	color: white;
+}
+.footer .hr{
+	bottom: 0px;
+    width: 100%;
+    height: 1px;
+    margin: 30px;
+    border-bottom: 1px solid #eee;
+}
